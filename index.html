@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregamos Font Awesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 0;
+            background-color: #ffffff;
+            border-bottom: 1px solid #dbdbdb;
+        }
+
+        .profile-info {
+            margin-right: 16px;
+        }
+
+        .profile-info img {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #dbdbdb;
+            border-radius: 50%;
+        }
+
+        .profile-details {
+            text-align: left;
+        }
+
+        .profile-details h1 {
+            font-size: 24px;
+            margin: 8px 0;
+        }
+
+        .profile-details ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .profile-details li {
+            display: inline-block;
+            margin-right: 16px;
+            font-size: 16px;
+            color: #262626;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 20px;
+            color: #262626;
+        }
+
+        
+        .btn {
+            background-color: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Estilo para los íconos */
+        .icon {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dbdbdb;
+        }
+
+        .post-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .post {
+            width: calc(33.33% - 12px);
+            margin-bottom: 24px;
+            background-color: #ffffff;
+            border: 1px solid #dbdbdb;
+        }
+
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Perfil de Instagram</title>
+</head>
+<body>
+    <header>
+        <div class="profile-info">
+            <img src="https://media.ambito.com/adjuntos/239/imagenes/037/631/0037631943.jpg?0000-00-00-00-00-00" alt="Foto de perfil">
+        </div>
+        <div class="profile-details">
+            <h1>Capibara-posting</h1>
+            <ul>
+                <li>9 Publicaciones</li>
+                <li>1000 Seguidores</li>
+                <li>23 Siguiendo</li>
+            </ul>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><i class="icon fas fa-th"></i>Publicaciones</li>
+            <li><i class="icon fas fa-bookmark"></i>Guardado</li>
+            <li><i class="icon fas fa-tags"></i>Etiquetas</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="post-container">
+            <div class="post">
+                <img src="https://www.zoobarcelona.cat/sites/default/files/animal/2016-12/1400x846%20HYDHYD%202.jpg" alt="Publicación 1">
+            </div>
+            
+            <div class="post">
+                <img src="https://t2.ea.ltmcdn.com/es/posts/5/8/1/cuidados_de_una_capibara_20185_orig.jpg" alt="Publicación 2">
+            </div>
+            
+            <div class="post">
+                <img src="https://www.nacionrex.com/__export/1677700909506/sites/debate/img/2023/03/01/meme-del-capibara-en-tiktok.jpg_423682103.jpg" alt="Publicación 3">
+            </div>
+
+            <div class="post">
+                <img src="https://penstagram.theowlclub.net/uploads/default/original/3X/3/f/3f514f25a082b74eba6cf80e6153e87393086b07.jpeg" alt="Publicación 4">
+            </div>
+            
+            <div class="post">
+                <img src="https://media.ambito.com/adjuntos/239/imagenes/037/631/0037631933.jpg?0000-00-00-00-00-00" alt="Publicación 5">
+            </div>
+            
+            <div class="post">
+                <img src="https://i.pinimg.com/736x/15/fe/46/15fe46c8d8e155a1485ad7637199725b.jpg" alt="Publicación 6">
+            </div>
+
+            <div class="post">
+                <img src="https://www.meme-arsenal.com/memes/f63be01329a3c3286b869dfcf265207d.jpg" alt="Publicación 7">
+            </div>
+            
+            <div class="post">
+                <img src="https://i.kym-cdn.com/photos/images/original/002/146/395/44d" alt="Publicación 8">
+            </div>
+            
+            <div class="post">
+                <img src="https://i.pinimg.com/736x/3e/3e/76/3e3e764df8994938bc105c43f5adfd56.jpg" alt="Publicación 9">
+            </div>
+        </div>
+    </main>
+</body>
+</html
